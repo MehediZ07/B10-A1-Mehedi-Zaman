@@ -9,6 +9,13 @@
 body {
   font-family: "Azeret Mono", monospace;
   width: 1440px;
+  margin: 0 auto;
+}
+
+/* Header section style start */
+.header {
+  width: 1440px;
+  margin: 0 auto;
 }
 nav {
   width: 1440px;
@@ -16,12 +23,11 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 166px 0 150px;
 }
 nav > h1 {
-  width: 114px;
+  width: 50%;
   height: 34px;
-  left: 150px;
-  top: 50px;
 }
 nav > button {
   color: rgb(13, 19, 33);
@@ -29,6 +35,88 @@ nav > button {
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
+  padding: 17px 24px 17px 24px;
   letter-spacing: 0%;
   text-align: center;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+/* hero banner style start here */
+.hero-banner-container {
+  width: 1440px;
+  height: 652px;
+  background-image: url(../Assets/Hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.hero-banner-container > img {
+  width: 240.28px;
+  height: 240px;
+  margin-top: 26px;
+}
+.hero-banner-container > h1 {
+  margin-top: 32px;
+  width: 998px;
+  justify-content: center;
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.hero-banner-container > p {
+  margin-top: 24px;
+  font-size: 16px;
+  color: rgb(13, 19, 33);
+  font-weight: 400;
+  width: 852px;
+  text-align: center;
+  justify-content: center;
+}
+.hero-banner-container > button {
+  margin-top: 32px;
+  width: 208px;
+  height: 66px;
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* Why-web-dev-section-style-start */
+
+.why-web-dev-container {
+  width: 1140px;
+  height: 1395px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  border: 2px solid red;
+}
+
+.why-web-dev-contents {
+  width: 946px;
+  height: 1235px;
+  margin: 0 auto;
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
