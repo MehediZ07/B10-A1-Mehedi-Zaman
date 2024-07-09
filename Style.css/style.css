@@ -480,3 +480,193 @@ nav > button {
   border: none;
   background-color: transparent;
 }
+/* my next target section style start here  */
+.my-next-target-container {
+  width: 1140px;
+  height: 871px;
+  margin: 0 auto;
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-next-target-container > h3 {
+  position: static;
+  width: 852px;
+  height: 39px;
+  margin: 0 auto;
+  align-items: center;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.my-next-target-container > p {
+  width: 852px;
+  height: 52px;
+  align-items: center;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.my-next-target-contents {
+  width: 1140px;
+  height: 708px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.my-next-target-contents > .next-target-content-1,
+.next-target-content-2,
+.next-target-content-3 {
+  position: static;
+  width: 1140px;
+  height: 220px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-bottom: 24px;
+}
+.next-target-content-1 > img,
+.next-target-content-2 > img,
+.next-target-content-3 > img {
+  width: 120px;
+  height: 108px;
+  background-position: center;
+  float: left;
+  margin-right: 32px;
+}
+.next-target-content-1 > h5,
+.next-target-content-2 > h5,
+.next-target-content-3 > h5 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+}
+.next-target-content-1 > p,
+.next-target-content-2 > p,
+.next-target-content-3 > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 8px 0px;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.next-target-content-1 > button,
+.next-target-content-2 > button,
+.next-target-content-3 > button {
+  align-items: flex-start;
+  margin: 24px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  border: none;
+  background: transparent;
+}
+/* I need support section style start here */
+
+.i-need-support {
+  width: 1140px;
+  height: 314px;
+  margin: 0 auto;
+  margin-top: 41px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../Assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.i-need-support > .i-need-support-container {
+  width: 1044px;
+  height: 186px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.i-need-support-container > h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.i-need-support-container > p {
+  width: 620px;
+  height: 52px;
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.i-need-support-container .i-need-support-form {
+  width: 548px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i-need-support-form .suggest-text {
+  width: 548px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 19px 20px 19px 20px;
+  margin: 0px 16px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+
+.i-need-support-form .submit-btn {
+  width: 120px;
+  height: 58px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
