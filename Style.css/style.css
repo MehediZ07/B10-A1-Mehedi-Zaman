@@ -359,3 +359,124 @@ nav > button {
   border-radius: 16px;
   overflow: hidden;
 }
+/* my-current-target style start here */
+
+.my-current-target {
+  width: 1140px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 149px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.my-current-target > h2 {
+  width: 852px;
+  height: 39px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  align-items: center;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+}
+.my-current-target > p {
+  width: 852px;
+  height: 52px;
+  margin: 0 auto;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.my-current-target > .mct-container {
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.mct-container > .html-container,
+.css_container,
+.js_container {
+  padding: 40px;
+  width: 364px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  order: 0;
+  border-radius: 16px;
+}
+.mct-container > .html-container {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.mct-container > .css_container {
+  background: rgba(0, 76, 232, 0.05);
+}
+.mct-container > .js_container {
+  background: rgba(255, 223, 0, 0.05);
+}
+.html-container > h3,
+.css_container > h3,
+.js_container > h3 {
+  width: 284px;
+  height: 36px;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+}
+.html-container > p,
+.css_container > p,
+.js_container > p {
+  width: 284px;
+  height: 52px;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.html-container > button,
+.css_container > button,
+.js_container > button {
+  width: 285px;
+  height: 20px;
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  border: none;
+  background-color: transparent;
+}
