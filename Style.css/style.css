@@ -372,7 +372,7 @@ nav > a {
   width: 1140px;
   height: 463px;
   margin: 0 auto;
-  margin-top: 149px;
+  margin-top: 140px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -410,7 +410,7 @@ nav > a {
   width: 1140px;
   height: 300px;
   margin: 0 auto;
-  margin-top: 48px;
+  margin-top: 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -509,7 +509,7 @@ nav > a {
   font-weight: 800;
   line-height: 37px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 24px;
 }
 .my-next-target-container > p {
   width: 852px;
@@ -521,7 +521,7 @@ nav > a {
   font-weight: 400;
   line-height: 26px;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 68px;
 }
 .my-next-target-contents {
   width: 1140px;
