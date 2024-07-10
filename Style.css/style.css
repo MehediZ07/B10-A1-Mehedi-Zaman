@@ -1,3 +1,4 @@
+/* Font style import */
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
 
 * {
@@ -29,16 +30,14 @@ nav > h1 {
   width: 50%;
   height: 34px;
 }
-nav > button {
+nav > a {
   color: rgb(13, 19, 33);
-  font-family: Azeret Mono;
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   padding: 17px 24px 17px 24px;
-  letter-spacing: 0%;
+  text-decoration: none;
   text-align: center;
-  box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
   opacity: 0.8;
@@ -78,6 +77,7 @@ nav > button {
   font-size: 16px;
   color: rgb(13, 19, 33);
   font-weight: 400;
+  line-height: 26px;
   width: 852px;
   text-align: center;
   justify-content: center;
@@ -164,7 +164,7 @@ nav > button {
 }
 .why-web-dev-content-1 > h2 {
   position: static;
-  width: 390px;
+  width: 490px;
   height: 72px;
   margin: 16px 0px;
   color: rgba(13, 19, 33, 0.7);
@@ -175,7 +175,7 @@ nav > button {
   text-align: left;
 }
 .why-web-dev-content-1 > p {
-  width: 468px;
+  width: 498px;
   height: 52px;
   display: flex;
   margin: 16px 0px;
@@ -185,19 +185,21 @@ nav > button {
   line-height: 26px;
   text-align: left;
   opacity: 0.7;
+  margin-bottom: 32px;
 }
-.why-web-dev-content-1 > button {
+.why-web-dev-content-1 > a {
   width: 160px;
   height: 48px;
   padding: 12px 20px 12px 20px;
-  margin: 32px 0px;
-  border: 1px solid rgb(13, 19, 33);
-  opacity: 0.7;
-  color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  background-color: #f4f4f4;
 }
 .why-web-dev-content-2 {
   width: 946px;
@@ -214,11 +216,11 @@ nav > button {
 .why-web-dev-content-2 > img {
   width: 240px;
   height: 240px;
-  margin-right: 32px;
+  margin-right: 48px;
   float: left;
 }
 .why-web-dev-content-2 > h2 {
-  width: 650px;
+  width: 800px;
   height: 72px;
   margin: 16px 0px;
   color: rgba(13, 19, 33, 0.7);
@@ -229,7 +231,7 @@ nav > button {
   text-align: left;
 }
 .why-web-dev-content-2 > p {
-  width: 468px;
+  width: 498px;
   height: 52px;
   display: flex;
   margin: 16px 0px;
@@ -239,19 +241,21 @@ nav > button {
   line-height: 26px;
   text-align: left;
   opacity: 0.7;
+  margin-bottom: 32px;
 }
-.why-web-dev-content-2 > button {
+.why-web-dev-content-2 > a {
   width: 160px;
   height: 48px;
   padding: 12px 20px 12px 20px;
-  margin: 32px 0px;
-  border: 1px solid rgb(13, 19, 33);
-  opacity: 0.7;
-  color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  background-color: #f4f4f4;
 }
 .why-web-dev-content-3 {
   width: 946px;
@@ -272,7 +276,7 @@ nav > button {
 }
 .why-web-dev-content-3 > h2 {
   position: static;
-  width: 390px;
+  width: 490px;
   height: 72px;
   margin: 16px 0px;
   color: rgba(13, 19, 33, 0.7);
@@ -283,7 +287,7 @@ nav > button {
   text-align: left;
 }
 .why-web-dev-content-3 > p {
-  width: 468px;
+  width: 498px;
   height: 52px;
   display: flex;
   margin: 16px 0px;
@@ -293,19 +297,21 @@ nav > button {
   line-height: 26px;
   text-align: left;
   opacity: 0.7;
+  margin-bottom: 32px;
 }
-.why-web-dev-content-3 > button {
+.why-web-dev-content-3 > a {
   width: 160px;
   height: 48px;
   padding: 12px 20px 12px 20px;
-  margin: 32px 0px;
-  border: 1px solid rgb(13, 19, 33);
-  opacity: 0.7;
-  color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   text-align: center;
+  text-decoration: none;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  color: rgb(13, 19, 33);
+  background-color: #f4f4f4;
 }
 /* My Inspiration section start here */
 
@@ -313,6 +319,7 @@ nav > button {
   width: 1140px;
   height: 777px;
   margin: 0 auto;
+  margin-top: 88px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -464,9 +471,9 @@ nav > button {
   font-weight: 400;
   line-height: 26px;
 }
-.html-container > button,
-.css_container > button,
-.js_container > button {
+.html-container > a,
+.css_container > a,
+.js_container > a {
   width: 285px;
   height: 20px;
   margin-top: 24px;
@@ -571,9 +578,9 @@ nav > button {
   line-height: 26px;
   text-align: left;
 }
-.next-target-content-1 > button,
-.next-target-content-2 > button,
-.next-target-content-3 > button {
+.next-target-content-1 > a,
+.next-target-content-2 > a,
+.next-target-content-3 > a {
   align-items: flex-start;
   margin: 24px 0px;
   color: rgb(13, 19, 33);
@@ -698,6 +705,54 @@ footer > .contect > h5 {
   letter-spacing: 0%;
   text-align: start;
 }
-.footer-img > img {
+.footer-img > a {
+  text-decoration: none;
   margin-left: 8px;
+  padding: 0;
+}
+
+/* Sub page style start here  */
+
+.Sub-page-container {
+  width: 1140px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  margin: 0 auto;
+  margin-top: 32px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.Sub-page-content {
+  width: 80%;
+  margin: 0 auto;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  border-radius: 16px;
+}
+.Sub-page-content > img {
+  padding-top: 32px;
+}
+.Sub-page-content > h2 {
+  padding-top: 32px;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.Sub-page-content > p {
+  padding-top: 32px;
+  margin: 16px 0px;
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: justify;
+  opacity: 0.7;
+  margin-bottom: 32px;
 }
